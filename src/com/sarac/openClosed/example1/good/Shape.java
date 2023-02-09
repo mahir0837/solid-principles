@@ -1,0 +1,6 @@
+package com.sarac.openClosed.example1.good;
+
+public interface Shape {
+
+    void draw();
+}
