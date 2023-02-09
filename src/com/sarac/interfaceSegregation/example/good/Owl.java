@@ -1,0 +1,18 @@
+package com.sarac.interfaceSegregation.example.good;
+
+public class Owl implements CanEat,CanFly,CanWalk{
+    @Override
+    public void eat() {
+        System.out.println("Eating");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Flying");
+    }
+
+    @Override
+    public void walk() {
+        System.out.println("Walking");
+    }
+}
